@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhani | Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand text-light" href="#">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon text-light">☰</span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="hero" class="hero text-center">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-md-6 text-md-start text-center">
+        <h1>Hello, I'm <span class="text-info">Suhani Nayak</span></h1>
+        <p class="mt-3">A passionate engineering student aspiring to be a full-stack developer.</p>
+        <div class="d-flex gap-3 mt-4 justify-content-md-start justify-content-center">
+          <a href="#projects" class="btn btn-custom">My Work</a>
+          <a href="Docs/Suhani Nayak.pdf" target="_blank" class="btn btn-outline-info">My Resume</a>
+        </div>
+        <div class="d-flex gap-3 mt-4 justify-content-md-start justify-content-center">
+          <a href="https://github.com/suhaninayak" target="_blank" class="text-light fs-3"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/suhani-nayak-024b88341/" target="_blank" class="text-light fs-3"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:yourmail@gmail.com" target="_blank" class="text-light fs-3"><i class="fab fa-google" style="color: #EA4335;"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="Images/resume pic.jpg" alt="Profile Picture">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="text-center mb-4">I am a Computer Science Engineering student, graduating in 2026, with a strong interest in web development, AI, and software systems.</p>
+    <ul class="list-group list-group-flush text-center">
+      <li class="list-group-item bg-transparent text-light">🌱 Currently learning Django & React</li>
+      <li class="list-group-item bg-transparent text-light">💻 Built several projects using Python & MySQL</li>
+      <li class="list-group-item bg-transparent text-light">📊 Interested in AI/ML research</li>
+      <li class="list-group-item bg-transparent text-light">🎯 Goal: Become a full-stack developer</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="py-5 bg-dark">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    <div class="row g-4">
+      
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-2 skill-title">
+          <i class="fab fa-html5 text-danger me-2 fs-4"></i>
+          <h5 class="mb-0">HTML</h5>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--percent:90%"></div></div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-2 skill-title">
+          <i class="fab fa-css3-alt text-primary me-2 fs-4"></i>
+          <h5 class="mb-0">CSS</h5>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--percent:85%"></div></div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-2 skill-title">
+          <i class="fab fa-js text-warning me-2 fs-4"></i>
+          <h5 class="mb-0">JavaScript</h5>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--percent:40%"></div></div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-2 skill-title">
+          <i class="fab fa-python text-info me-2 fs-4"></i>
+          <h5 class="mb-0">Python</h5>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--percent:75%"></div></div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-2 skill-title">
+          <img src="https://static.djangoproject.com/img/logos/django-logo-negative.svg"  alt="Django" width="28" class="me-2">
+          <h5 class="mb-0">Django</h5>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--percent:75%"></div></div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-2 skill-title">
+          <i class="fas fa-database text-light me-2 fs-4"></i>
+          <h5 class="mb-0">SQL</h5>
+        </div>
+        <div class="skill-bar"><div class="skill-bar-fill" style="--percent:75%"></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-3 h-100">
+          <img src="Images/Screenshot 2025-08-29 173226.png" class="card-img-top rounded mb-3" alt="To-Do App">
+          <div class="card-body">
+            <h5 class="card-title">To-Do App</h5>
+            <p class="card-text">A task manager built with Python & Django.</p>
+            <div class="d-flex gap-3">
+              <a href="https://github.com/suhaninayak/To-Do-App" target="_blank" class="text-info fs-5"><i class="fab fa-github"></i></a>
+              <a href="http://to-do-app-production-cdac.up.railway.app" target="_blank" class="text-info fs-5"><i class="fas fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3 h-100">
+          <img src="Images/c128beb7-4d0a-43bf-a659-bc87d8fa440f.png" class="card-img-top rounded mb-3" alt="Student Report">
+          <div class="card-body">
+            <h5 class="card-title">Face Detection Using AIML</h5>
+            <p class="card-text">AI-powered face detection system built with Python, OpenCV, and ML techniques.</p>
+            <div class="d-flex gap-3">
+              <a href="https://github.com/suhaninayak/Face-Detection" target="_blank" class="text-info fs-5"><i class="fab fa-github"></i></a>
+              <a href="https://demo-link.com" target="_blank" class="text-info fs-5"><i class="fas fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card p-3 h-100">
+          <img src="Images/tkinter.jpg" class="card-img-top rounded mb-3" alt="Student Report">
+          <div class="card-body">
+            <h5 class="card-title">Student Performance Report</h5>
+            <p class="card-text">Python GUI app with Tkinter, MySQL & Matplotlib.</p>
+            <div class="d-flex gap-3">
+              <a href="https://github.com/suhaninayak/Student-Performance-Report" target="_blank" class="text-info fs-5"><i class="fab fa-github"></i></a>
+              <a href="https://demo-link.com" target="_blank" class="text-info fs-5"><i class="fas fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center text-light">
+  <p>© 2025 Suhani. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Animate skill bars
+  const bars = document.querySelectorAll('.skill-bar-fill');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('active');
+    });
+  }, { threshold: 0.5 });
+  bars.forEach(bar => observer.observe(bar));
+</script>
+</body>
+</html>
